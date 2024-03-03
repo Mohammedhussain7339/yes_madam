@@ -5,8 +5,8 @@ import Userhome from './component1/Userhome';
 function App() {
   return (
   <>
-  {/* <AdminHome/> */}
-  <Userhome/>
+  <AdminHome/>
+  {/* <Userhome/> */}
   </>
  )
 }
