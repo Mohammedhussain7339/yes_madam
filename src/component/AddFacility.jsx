@@ -57,17 +57,19 @@ function Add_facility() {
 
   return (
     <>
-      <div>
-        <h2>Add New Product</h2>
+      <div className="facility">
+        <div className="facilitybox">
+        <h2 style={{textAlign:'center'}}>Add New Product</h2><br /><br />
         <div>
           <label>Name: </label>
-          <input type="text" value={s_facility_Name} onChange={onChangeName} />
+          <input type="text" placeholder="Enter your facility type"
+           value={s_facility_Name} onChange={onChangeName} /><br /><br />
         </div>
         <div>
           <label>Image: </label>
           <input type="file" onChange={onChangeImage} />
         </div>
-        <button type="submit" onClick={onSubmit}>
+        <button type="submit" onClick={onSubmit} className="submit"> 
           Submit
         </button>
       </div>
@@ -80,6 +82,7 @@ function Add_facility() {
             </tr>
           </li>
         ))}
+        </div>
       </div>
     </>
   );
