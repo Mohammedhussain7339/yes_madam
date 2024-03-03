@@ -1,11 +1,11 @@
 import React from 'react'
-import AddFacility from './component/AddFacility';
 import AdminHome from './component/AdminHome';
-import Userhome from './component1/Userhome';
+import Home from './component/Home';
 function App() {
   return (
   <>
-  <AdminHome/>
+  {/* <AdminHome/> */}
+  <Home/>
   {/* <Userhome/> */}
   </>
  )
