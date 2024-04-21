@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Footer from './Footer';
 
 export default function SpasubCat() {
     const faqData = [
@@ -59,7 +60,7 @@ export default function SpasubCat() {
                 </div>
             </div>
         </div>
-      
+      <Footer/>
     </div>
     </>
 

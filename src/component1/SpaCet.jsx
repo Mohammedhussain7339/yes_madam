@@ -9,6 +9,8 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Pagination } from 'swiper/modules';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 
@@ -16,6 +18,7 @@ export default function SpaCet() {
   return (
     
     <>
+    <Navbar/>
     <div className='spacat'>
       <div className="maincontainer">
         <div className="spa">
@@ -102,7 +105,7 @@ export default function SpaCet() {
           </div>
       </div>
       
-      
+      <Footer/>
     </div>
     </>
   )

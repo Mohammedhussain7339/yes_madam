@@ -5,8 +5,8 @@ import SpasubCat from './SpasubCat'
 export default function Userhome() {
   return (
     <div>
-      <SpaCet/>
-      <SpasubCat/>
+      {/* <SpaCet/>
+      <SpasubCat/> */}
     </div>
   )
 }

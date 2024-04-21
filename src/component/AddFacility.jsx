@@ -78,7 +78,8 @@ function Add_facility() {
         {facilities.map((facility) => (
           <li key={facility._id}>
             <tr>
-              <td>{facility.s_facility_Name}</td>
+              <td><img src="http://localhost:5173/upload{facility.facilityImage}" alt="" /></td>
+              <td>{facility.facilityName}</td>
             </tr>
           </li>
         ))}
