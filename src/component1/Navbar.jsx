@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import { Link } from 'react-router-dom';
 
 
@@ -17,19 +18,19 @@ function Navbar() {
           <div className="signupbox">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="../SpaCet">Blog |</a>
+                <Link to="/Blog">Blog |</Link>
               </li>
               <li>
-                <a href="">Register As a Professional|</a>
+                <Link to="">Register As a Professional|</Link>
               </li>
               <li>
-                <a href="">Login</a>
+                <Link to="/Login">Login</Link>
               </li>
               <li>
-                <a href="">SignUp</a>
+                <Link to="/Signup">SignUp</Link>
               </li>
             </ul>
           </div>

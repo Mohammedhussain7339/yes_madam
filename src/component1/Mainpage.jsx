@@ -42,7 +42,7 @@ function Mainpage() {
     
     <>
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
         <div className="container">
         </div>
         <div className="swiper1 mySwiper1">
