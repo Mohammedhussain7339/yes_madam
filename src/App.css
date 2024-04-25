@@ -29,6 +29,8 @@
   align-items: center;
   padding: 0 150px;
   box-shadow: 0 0 10px black;
+  position: fixed;
+  z-index: 2;
 }
 .nav1 .logo{
   font-size: 25px;
@@ -630,4 +632,107 @@ height: 100%;
   color: white;
   position: absolute;
   right: 300px;
+}
+/* ---------------------------------sign up page css start----------------- */
+.register-page{
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/register_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-box{
+  width: 500px;
+  height: 500px;
+  /* background-color: rgba(129, 128, 128,0.2); */
+  border-radius: 5px;
+}
+.register-box input{
+  margin: 10px;
+  width: 90%;
+  height: 40px;
+  background-color:rgba(112, 110, 250, 0.1);
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 20px  ;
+  margin-left: 20px;
+}
+.register-box>.name{
+  margin: 20px;
+  width: 41%;
+}
+.register-box>.name1{
+  margin: 20px;
+  width: 41%;
+  background-color:rgba(112, 110, 250, 0.1);
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  color: gray;
+}
+.register-box>.rsubmit{
+  background-color:rgba(58, 30, 238, 0.5);
+  cursor: pointer;
+}
+.register-box>.rsubmit:hover{
+  color:white;
+  background-color:rgba(58, 30, 238, 0.7);
+
+}
+/* --------------------------login page styling start-------------------- */
+.login-page{
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/login_bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+}
+.sublog-page{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.login-box{
+  width: 500px;
+  height: 300px;
+  /* border: 2px solid black; */
+  padding: 35px;
+  background-color: rgba(58, 30, 238, 0.1);
+  border-radius: 15px;
+}
+.login-box input{
+  width: 85%;
+  height: 40px;
+  padding-left: 10px;
+}
+.login-box .lsubmit{
+  width: 150px;
+  border: none;
+  background-color:rgba(26, 8, 141, 0.4);
+  color: white;
+  cursor: pointer;
+}
+.login-box p{
+  background-color: white;
+  border: none;
+}
+.lrsubmit{
+  width: 200px;
+  height: 40px;
+  background-color:rgba(26, 8, 141, 0.4);
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+.lrsubmit >a{
+  color: white;
+  font-size: 15px;
 }
