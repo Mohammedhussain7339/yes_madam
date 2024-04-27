@@ -43,6 +43,12 @@
   margin: 0 10px;
 
 }
+.nav1 .logout{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 30px;
+}
 
 .swiper1 {
   width: 100%;
